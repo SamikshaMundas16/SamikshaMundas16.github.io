@@ -39,7 +39,6 @@ header {
 
 header.sticky {
     background: linear-gradient(to left, #bdc3c7, #2c3e50);
-    /* background: linear-gradient(to left, #ffd89b, #19547b); */
     background: #111;
     padding: 20px 100px;
 }
@@ -452,13 +451,11 @@ header ul li a:hover {
 
 .skills .content .skillsBx {
     padding: 0px 20px;
-    /* background: #222; */
     color: rgb(35, 31, 31);
     max-width: 150px;
     min-width: 150px;
     margin: 20px;
     text-align: center;
-    /* transition: 0.5s; */
     border-radius: 30px;
 }
 
@@ -478,7 +475,6 @@ header ul li a:hover {
 .heading {
     color: black;
     margin-top: 20px;
-    /* new line */
     text-align: center;
     margin-bottom: 100px;
 }
@@ -490,7 +486,6 @@ header ul li a:hover {
 }
 
 .projects .content .projectbx {
-    /* new line */
     width: 80%;
     padding: 20px;
     display: flex;
@@ -501,10 +496,12 @@ header ul li a:hover {
 }
 
 .projects .content .projectbx img {
-    /* new */
-    width: 50%;
+    width: 500px !important;
+    height: 300px !important;
     border-radius: 8px;
     filter: brightness(100%);
+    margin-right: 50px;
+    border: 1px solid hsl(0, 0%, 50%);
 }
 
 .projects .content .projectbx .details {
@@ -513,35 +510,23 @@ header ul li a:hover {
     color: black;
 }
 
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
+.projects .content .projectbx .details #desc1{
+    margin-top: -40px;
 }
 
-.overlay h2 {
-    color: red;
+.projects .content .projectbx .details #desc2{
+    margin-top: -65px;
 }
 
-.overlay p {
-    color: white;
-}
-
-.overlay p span {
-    color: #999;
+.projects .content .projectbx .details #desc3{
+    margin-top: -70px;
 }
 
 .projects .content .projectbx img:hover {
-    opacity: 0.2;
+    opacity: 0.7;
 }
 
-.projects .content .projectbx img:hover + .overlay {
-    display: block; 
-}
 
-/* new line */
 .heading.white {
     text-align: center;
 }
@@ -633,7 +618,6 @@ header ul li a:hover {
 }
 
 .contactInfoBx {
-    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -735,7 +719,6 @@ footer a {
 .certification .box-container .box figcaption{
     color:rgb(8, 8, 8);
     font-size: 1.3rem;
-    /* padding:.5rem 5rem; */
 }
 .certification .box-container .box:hover{
     border: 2px solid rgb(10, 10, 10);
@@ -807,7 +790,6 @@ footer a {
 
     .projects .content .projectbx {
         width: 100%;
-        /* padding: 10px; */
     }
 
     .contactInfo {
