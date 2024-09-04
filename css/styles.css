@@ -406,12 +406,29 @@ header ul li a:hover {
     color: var(--color-secondary);
 }
 
-.timeline-item.left .timeline-content h2 a {
+/* .timeline-item.left .timeline-content h2 a {
     color: rgb(29, 29, 161); 
 }
 
 .timeline-item.right .timeline-content h2 a {
     color: rgb(207, 24, 24);
+} */
+
+
+.timeline-item.right .timeline-content h2 a#epsilon{
+    color: rgb(7, 83, 245);
+}
+
+.timeline-item.right .timeline-content h2 a#trigent{
+    color: rgb(252, 157, 15);
+}
+
+.timeline-item.left .timeline-content h2 a#neu{
+    color: rgb(195, 9, 9);
+}
+
+.timeline-item.left .timeline-content h2 a#mu{
+    color: rgb(7, 83, 245);
 }
 
 .timeline-item.right .timeline-content p .description[p-content] {
